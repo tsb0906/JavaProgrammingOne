@@ -1,14 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Chapter5;
 
+import java.util.Scanner;
+
 /**
+ * Program to reverse a string entered by user
  *
- * @author tb1001812
+ * @author Tristan Brandeberry
  */
+
 public class C5_46 {
-    
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+//Askes user to enter a string and then reverses that string and displays it
+        System.out.print("Enter a string: ");
+
+        String s = input.nextLine();
+        System.out.printf("The reverse string is %s ",
+                (new StringBuffer(s).reverse().toString()));
+
+    }
 }
