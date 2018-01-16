@@ -59,7 +59,13 @@ public class P6 {
 
     }
 
-    //write the method to perform the conversion below
+    /**
+     * Secondary method
+     *
+     * @param dollars the amount of dollars to convert
+     * @param currency the currency to convert to
+     * @return the amount of dollars the currency is equal to
+     */
     public static double conversion(double dollars, double currency) {
         if (dollars > 100) {
             dollars = dollars - (dollars * 0.10);
