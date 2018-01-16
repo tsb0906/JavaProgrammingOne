@@ -5,7 +5,6 @@ package Chapter1;
  *
  * @author Tristan Brandeberry
  */
-
 public class P1 {
 
     /**
@@ -13,7 +12,6 @@ public class P1 {
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         System.out.println("Welcome to Java!");
     }
