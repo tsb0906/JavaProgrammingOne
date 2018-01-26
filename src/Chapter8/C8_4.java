@@ -1,4 +1,5 @@
 package Chapter8;
+
 /**
  * Program to create 7 by 7 array
  *
@@ -22,17 +23,15 @@ public class C8_4 {
         {3, 4, 4, 6, 3, 4, 4},
         {3, 7, 4, 8, 3, 8, 4},
         {6, 3, 5, 9, 2, 7, 9},};
-        
+
         // Store the total hours for each row
-       
-        for(int r = 0; r < hoursPerWeek.length; r++) {
+        for (int r = 0; r < hoursPerWeek.length; r++) {
             System.out.print("Employee " + r);
-            for(int c = 0; c < hoursPerWeek[r].length; c++) {
+            for (int c = 0; c < hoursPerWeek[r].length; c++) {
                 System.out.print("\t" + hoursPerWeek[r][c]);
             }
             System.out.println();
         }
-
 
     }
 
